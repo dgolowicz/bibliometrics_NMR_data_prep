@@ -4,9 +4,6 @@ This repository contains Jupyter Notebooks to fetch and prepare data for use by 
 
 The notebooks have rich markdown information and should be self explanatory. Below is a short information on the workflow. 
 
-### you may need (but not required)
-NCBI API KEY - available for free from https://account.ncbi.nlm.nih.gov/settings/
-
 ## WORKFLOW
 
 ### Script 1: 1_collect_data_pubmed_openalex.ipynb
