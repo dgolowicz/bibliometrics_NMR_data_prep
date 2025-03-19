@@ -6,7 +6,7 @@ The notebooks have rich markdown information and should be self explanatory. Bel
 
 ## WORKFLOW
 
-### Script 1: 1_collect_data_pubmed_openalex.ipynb
+### 1_collect_data_pubmed_openalex.ipynb
 
 - Fetches data from PubMed and OpenAlex and combine them into a single pandas dataframe
 
@@ -15,10 +15,10 @@ Entrez Direct is available for Linux and Mac operating systems, but you can also
 You are also advised to enter NCBI API KEY into the designated cells. Key is available for free from https://account.ncbi.nlm.nih.gov/settings/
 By doing so, you can reduce a delay for your requests from 0.5 to 0.1 in the following line: pubmed_data = fetch_pmid_records(pmids, delay=0.5)
 
-### Script 2: 2_preprocessing.ipynb
+### 2_preprocessing.ipynb
 
 - Clean and transform data in pandas
 
-### Script 3: 3_prepare_sqlite_db.ipynb
+### 3_prepare_sqlite_db.ipynb
 
 - Save preprocessed data from Script 2 to SQLite database - ready to use by Dashboard app from https://github.com/dgolowicz/bibliometrics_NMR
